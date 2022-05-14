@@ -2,7 +2,7 @@
 session_save_path("/tmp");
 session_start();
 //Uncomment next line to force timezone
-//date_default_timezone_set('Europe/Paris');
+//date_default_timezone_set('Asia/Jakarta');
 
 require 'vendor/autoload.php';
 include('functions.php');
