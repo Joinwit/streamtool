@@ -89,7 +89,7 @@ echo ""
 echo ""
 echo "Installing Streamtool"
 
-git clone https://github.com/micky4966/streamtool >/dev/null 2>&1 &
+git clone https://github.com/Joinwit/streamtool >/dev/null 2>&1 &
 PID=$!
 spinner $PID "Downloading software"
 
