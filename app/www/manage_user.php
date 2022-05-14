@@ -21,16 +21,10 @@ if (isset($_POST['submit'])) {
     $user->max_connections = $_POST['limit'];
 
     if ($_POST['expdate']) {
-       if ($user->exp_date = '0000-00-00') {
-           $user->exp_date = '0000-00-00 00:00:00';
-       } else {
-           $user->exp_date = Carbon::parse($_POST['expdate']);
-       }
-    } else {
-        $user->exp_date = '0000-00-00 00:00:00';
+        $user->exp_date = Carbon::parse($_POST['expdate']);
     }
 
-    
+
     $user->active = 0;
     if (isset($_POST['active'])) {
         $user->active = 1;
@@ -71,7 +65,11 @@ if (isset($_POST['submit'])) {
 }
 
 
+//print_r($user->categories->keyBy('id')->toArray());
+//print_r($user->categories->get());
 
+
+//\Illuminate\Database\Eloquent\Builder::lists($column, $key);
 echo $template->view()
     ->make('manage_user')
     ->with('user', $user)
