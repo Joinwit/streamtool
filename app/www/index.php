@@ -100,8 +100,8 @@ if (isset($_POST['submit'])) {
                         <div>
 
 
-                            <p>&copy;2020 Streamtool - <a href="https://github.com/micky4966/streamtool"
-                                                                                  target="_blank">micky4966</a></p>
+                            <p>&copy;2020 Streamtool - <a href="https://github.com/Joinwit/streamtool"
+                                                                                  target="_blank">Joinwit</a></p>
                         </div>
                     </div>
                 </form>
