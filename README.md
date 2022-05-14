@@ -23,7 +23,7 @@ A web software for managing and manipulating video streams.
  **SUPPORTED DISTRIBUTION : Ubuntu 20.04 64 BIT**
   As administrator execute:
 ```bash
-curl -s https://raw.githubusercontent.com/micky4966/streamtool/master/install/st-11.20.sh | sudo bash
+curl -s https://raw.githubusercontent.com/Joinwit/streamtool/master/install/st-11.20.sh | sudo bash
 ```
   Visit : http://streamtool-adress:9001/ login with 
  Default Username Password: admin
