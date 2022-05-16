@@ -53,13 +53,7 @@
                             <li><a href="activities.php"><i class="fa fa-clipboard-list"></i> Activity log </a></li>
                             <li><a href="settings.php"><i class="fa fa-cog"></i> Settings </a></li>
                         </ul>
-                    </div>
-                    <div class="menu_section">
-                        <h3>Extra information</h3>
-                        <ul class="nav side-menu">
-                            <li><a target="_new" href="https://github.com/micky4966/streamtool/issues"><i class="far fa-comments"></i> Support </a></li>
-                        </ul>
-                    </div>
+                    </div>                    
                 </div>
                 <!-- /sidebar menu -->
                 <!-- /menu footer buttons -->
