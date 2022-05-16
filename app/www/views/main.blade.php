@@ -57,7 +57,7 @@
                     <div class="menu_section">
                         <h3>Extra information</h3>
                         <ul class="nav side-menu">
-                            <li><a target="_new" href="https://github.com/micky4966/streamtool/issues"><i class="far fa-comments"></i> Support </a></li>
+                            <li><a target="_new" href="https://github.com/Joinwit/streamtool/issues"><i class="far fa-comments"></i> Support </a></li>
                         </ul>
                     </div>
                 </div>
