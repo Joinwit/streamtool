@@ -48,7 +48,7 @@ if (isset($_GET['m3u'])) {
                 } else {
                     echo "#EXTINF:0 tvg-logo=\"" . $setting->logourl . "" . $stream->logo . "\" tvg-id=\"" . $stream->tvid . "\" ," . $stream->name . "\r\n";
                 }
-                echo "http://" . $setting->webip . ":" . $setting->webport . "/mpegts/" . $user->username . "/" . $user->password . "/" . $stream->id . "\r\n";
+                echo "http://" . $setting->webip . ":" . $setting->webport . "/live/" . $user->username . "/" . $user->password . "/" . $stream->id . "\r\n";
             }
         }
     }
